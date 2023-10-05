@@ -93,4 +93,4 @@ async function playNextSong(message) {
 
 
 
-client.login('MTEzNjMxMTg0MDg2Mzk0ODgwMQ.GaAjR_.NvlvSbvkFOqxh7CKAWZmCraDBJV71BnR_GnDnE');
+client.login('MTEzNjMxMTg0MDg2Mzk0ODgwMQ.G_j9B3.rmyJQTuDHp6aXcbp-aJ--eEIuCFypEdHQYdCvM');
