@@ -18,9 +18,8 @@ client.on('ready', () => {
     console.log(`Бот подключен как ${client.user.tag}!`);
 });
 
-let queue = []
+let queue = [];
 let player = null;
-
 
 client.on('messageCreate', async message => {
     if (message.author.bot) return;
@@ -37,7 +36,7 @@ client.on('messageCreate', async message => {
             console.log(queue)
             playNextSong(message);
         } catch (error) {
-            console.log(error)
+            console.log(error.message)
             queue.push(url);
             playNextSong(message);
         }
